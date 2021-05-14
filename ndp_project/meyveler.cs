@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ndp_project
 {
-    class meyveler
+    class Meyveler:IMeyveler
     {
-        public meyveler()
+        public Meyveler()
         {
             
         }

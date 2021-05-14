@@ -24,7 +24,7 @@ namespace ndp_project
 
 
 
-            meyveler Meyveler = new meyveler();
+            Meyveler meyveler = new Meyveler();
 
         }
     }
