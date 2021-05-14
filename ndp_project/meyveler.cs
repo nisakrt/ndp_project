@@ -6,42 +6,42 @@ namespace ndp_project
 {
     class Meyveler:IMeyveler
     {
-        private int vitaminA_;
-        private int vitaminC_;
-        private int meyveGrami_;
+        private string name;
+        private string img;
+        private int vitaminA;
+        private int vitaminC;
 
-        public Meyveler()
+        public Meyveler(string name, int vitaminA, int vitaminC, string img)
         {
+            this.name = name;
+            this.vitaminA = vitaminA;
+            this.vitaminC = vitaminC;
+            this.img = img;
+        }
+
+
+        public string getname()
+        {
+            return this.name;
+        }
+        public int getvitaminA()
+        {
+            return this.vitaminA;
+        }
+        public int getvitaminC()
+        {
+                return this.vitaminC;
+        }
+        
+        public string getimg()
+        {
+            return this.img;
+        }
+       
             
-        }
-
-        public int vitaminA
-        {
-            get
-                {
-                return vitaminA_;
-                }
-            set { }
-        }
-        public int vitaminC
-        {
-            get
-            {
-                return vitaminC_;
-            }
-            set
-            { }
-        }
-        public int meyveGrami
-        {
-            get
-            {
-                return meyveGrami_;
-            }
-            set
-            { }
-        }
-
+        
+            
+        
 
 
     }

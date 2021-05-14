@@ -6,9 +6,7 @@ namespace ndp_project
 {
     interface IMeyveler
     {
-        int vitaminA { get; set; }
-        int vitaminC { get; set; }
-        int meyveGrami { get; set; }
+        
 
     }
 }
