@@ -6,33 +6,37 @@ namespace ndp_project
 {
     class meyveler
     {
-        
-            private int vitaminA
-            {
-                get
+        public meyveler()
+        {
+            
+        }
+
+        private int vitaminA
+        {
+            get
                 {
-                    return vitaminA;
+                return vitaminA;
                 }
-                set { }
-            }
-            private int vitaminC
+            set { }
+        }
+        private int vitaminC
+        {
+            get
             {
-                get
-                {
-                    return vitaminC;
-                }
-                set
-                { }
+                return vitaminC;
             }
-            private int meyveGram
+            set
+            { }
+        }
+        private int meyveGram
+        {
+            get
             {
-                get
-                {
-                    return meyveGram;
-                }
-                set
-                { }
+                return meyveGram;
             }
+            set
+            { }
+        }
 
 
 
