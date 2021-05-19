@@ -102,9 +102,6 @@ namespace ndp_project
             label5.Text = vitaminA.ToString();
 
             label7.Text = vitaminC.ToString();
-
-            
-
             
             
             if (pictureBox1.ImageLocation == meyve[0].getimg()  )
@@ -139,6 +136,7 @@ namespace ndp_project
             clock2++;
         }
 
+
         private void label2_Click(object sender, EventArgs e)
         {
             
@@ -171,5 +169,3 @@ namespace ndp_project
         }
     }
 }
-
-
